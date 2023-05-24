@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #858c98;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.score-forms {
+  display: flex;
+}
+
+.button {
+  background-color: #414347;
+}
+
+.score-matching {
+  font-size: 20px;
+}
+
+.ant-form-item .ant-form-item-label>label {
+  font-weight: 700;
 }
